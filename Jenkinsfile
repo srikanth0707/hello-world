@@ -20,16 +20,6 @@ pipeline {
        echo "deploying with ${SERVER_CREDENTIALS}"
        sh "${SERVER_CREDENTIALS}"
     }}
-    post{
-      always {
-        //
-      }
-      success {
-        //
-      }
-      failure{
-        //
-      }
-    }
+    
   }}
 
